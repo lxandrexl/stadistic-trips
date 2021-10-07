@@ -1,0 +1,19 @@
+{
+  "name": "estadisticas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "export": "node src/export.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.1002.0",
+    "fast-csv": "^4.3.6",
+    "uuid": "^8.3.2"
+  }
+}
